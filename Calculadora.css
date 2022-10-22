@@ -1,0 +1,59 @@
+.container{
+    display:flex;
+    flex-flow: column nowrap;
+    gap: 6px 6px;
+    justify-content:center;
+    align-items: center;
+    margin:0 auto;
+    padding:20px;
+    background-color:rgb(71, 76, 76);
+    width:300px;
+    height:500px;
+    border-radius: 40px;
+}
+.brand{
+  color: #fff;
+}
+.keypadN{
+  background-color: rgb(127, 141, 141);
+  font-size: x-large;
+  color: azure;
+  width: 70px;
+  height:70px;
+  
+  }
+.keypadN.op{
+  background-color: rgb(220, 133, 52);
+  font-size: x-large;
+  color: azure;
+  width: 70px;
+  height:70px;
+  }  
+
+.display{
+  display: block;
+  text-align: end;
+  font-size: 40px;
+  width:300px;
+  height: 100px;
+  line-height: 100px;
+  background-color:#fff;
+  border-radius: 15px;
+  overflow: auto;
+}
+
+#reset{
+  background-color: rgba(240, 48, 23, 0.767);
+  font-size: x-large;
+  color: azure;
+  width: 70px;
+  height:70px;
+}
+.keypadN.equal{
+  background-color:rgb(170, 145, 22);
+  font-size: x-large;
+  color: azure;
+  width: 70px;
+  height:70px;
+}
+
